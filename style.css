@@ -1,0 +1,180 @@
+*{ 
+    margin: 0;
+    padding: 0;
+}
+#welcome{
+    font-size: 40px;
+    font-family: Ubuntu;
+    margin-top: 20px;
+    word-spacing: 5px;
+}
+#houseboat{
+    box-shadow: 5px 6px 7px;
+    position: relative;
+    left: 140px;    
+}
+#kbestry{
+    font-family: Ubuntu;
+}
+#kbepara{
+    margin-top: 20px;
+    padding-right: 200px;
+    text-align: justify;
+}
+#experiences{
+    font-family: Ubuntu;
+    padding-left: 140px;
+}
+#experiencespara{
+    padding-left:140px ;
+    padding-right:90px ;
+    text-align: justify;
+}
+#experienceimg{
+    box-shadow: 5px 6px 7px;
+}
+#season{
+    font-size: 40px;
+    font-family:Ubuntu ;
+    word-spacing: 10px;
+}
+#munnarhead{
+    font-size: 20px;
+    font-weight: 100px;
+}
+#munnarpara{
+    text-align: justify;
+}
+#vagamonheader{
+    font-size: 20px;
+    font-weight: 100px;
+}
+#vagamonpara{
+    text-align: justify;
+}
+#idukkiheader{
+    font-size: 20px;
+    font-weight: 100px;
+}
+#idukkipara{
+    text-align: justify;
+}
+#whykerala{
+    font-size: 40px;
+    font-family:Ubuntu ;
+    word-spacing: 10px;
+    margin-top: 35px;
+}
+#whykeralaimg{
+    position: relative;
+    left: 200px;
+    height: 600px;
+    box-shadow: 5px 6px 7px;
+}
+#whykeralapara{
+    position: relative;
+    right: 40px;
+    text-align: justify;
+    font-size: 20px;
+}
+#specialkerala{
+    font-size: 40px;
+    font-family:Ubuntu ;
+    word-spacing: 10px;
+    margin-top: 50px;
+}
+#boatraceimg{
+    filter: blur(2px);
+}
+#boatracehead{
+    position: relative;
+    bottom: 261px;
+    color:white;
+    word-spacing: 10px;
+    font-family: Archivo Black;
+    font-size: 60px;
+}
+#boatraceticket{
+    font-size: 30px;
+    position: relative;
+    bottom: 274px;
+    color: white;
+    font-weight: 900px;
+}
+#ticket{
+    font-size: 20px;
+}
+#fstimg1,#fstimg2,#fstimg3{
+    position: relative;
+    top: -160px;
+    filter: blur(2px);
+    transition-duration: 1s;
+}
+#fstimg1:hover{
+    filter: blur(0px);
+    box-shadow: 6px 7px 8px gray;
+    
+    
+}
+#fstimg2:hover{
+    filter: blur(0px);
+    box-shadow: 6px 7px 8px gray;
+}
+#fstimg3:hover{
+    filter: blur(0px);
+    box-shadow: 6px 7px 8px gray;
+}
+#box{
+    position: relative;
+    bottom: 90px;
+}
+#who{
+    font-size: 40px;
+    font-family: Ubuntu;
+    margin-top: 20px;
+    word-spacing: 5px;
+}
+#why{
+    padding-right: 470px;
+}
+#whypara{
+    text-align: justify;
+    padding-left: 5px;
+    padding-right: 100px;
+}
+#whoimg1{
+    position: relative;
+    top: 90px;
+    right: 40px;
+    box-shadow: 7px 8px 9px;
+}
+#whoimg2{
+    box-shadow: 7px 8px 9px;
+}
+#features{
+    font-size: 40px;
+    font-family: Ubuntu;
+    margin-bottom: 30px;
+    word-spacing: 5px;
+}
+#happy{
+    font-size: 40px;
+    font-family: Ubuntu;
+    margin-top: 50px;
+    word-spacing: 5px;
+}
+
+@media screen and (max-width:400px){
+    .nav{
+        width: 900px;
+        height: 80px;
+    
+    }
+    #carouselExampleSlidesOnly{
+        width: 900px;
+    }
+    #welcome{
+        position: relative;
+        left: 240px;
+    }
+}
